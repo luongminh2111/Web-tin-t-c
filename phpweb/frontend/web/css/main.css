@@ -1,0 +1,97 @@
+.container{
+    width: 100%;
+    font-size: 14px;
+
+}
+.banner img{
+    max-width: 100%;
+}
+
+.top .nav{
+    margin-top: -4px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #d5dbdb;
+}
+.top .nav .nav-icon{
+    display: flex;
+    min-width: max-content;
+    font-size: 18px;
+
+}
+.top .nav .nav-icon img{
+    max-width: 40%;
+    margin-left: 150px;
+}
+.top .nav .nav-extend ul {
+    list-style: none;
+    margin-left: -30px;
+}
+.top .nav .nav-extend ul li{
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.top .nav .nav-extend ul li a:hover{
+    background-color: silver;
+}
+.top .nav .nav-extend ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #d5dbdb;
+    border-radius: 3px;
+}
+.top .nav  .nav-form{
+    display: flex;
+    margin-top: 15px;
+}
+.top .nav .nav-form input[type=text] {
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    float: left;
+    border: 1px solid grey;
+    width: 250px;
+    background: #f1f1f1;
+    border-bottom-left-radius: 3px ;
+}
+
+/* Style the submit button */
+.top .nav  .nav-form button {
+    height: 30px;
+    float: left;
+    width: 30px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+.top .nav  .nav-form button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats */
+.top .nav  .nav-form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.top .navbar .nav{
+    border: 1px solid #d5dbdb;
+    margin-top: -1px;
+    font-weight: bold;
+    color: black;
+    display: inline-flex;
+}
+.top .navbar .nav .nav-item .nav-link{
+    padding: 11px;
+    color: black;
+    font-size: 14px;
+}
